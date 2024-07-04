@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-@EntityScan(basePackages = "org.example.entity")
 class CrudTestingApplicationTests {
 
 	@Test
