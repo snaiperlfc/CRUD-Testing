@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: examplepassword
+      MYSQL_DATABASE: example
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepassword
+    ports:
+      - "3306:3306"
